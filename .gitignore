@@ -13,7 +13,6 @@
 [Rr]eleases/
 x64/
 x86/
-build/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -181,3 +180,49 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+
+#==============================================================================
+# HolisticWare
+
+# MacOSX
+**/*.DS_Store
+**/.DS_Store
+
+**/.svn*
+**/.git*
+**/.git.*
+**/.git.*/*
+
+**/Components/
+**/packages/
+
+**/*.secure*
+
+**/*.data.*
+**/*.data.bat
+**/*.data.sh
+**/*.secure.data.md
+**/*.data.md
+**/*.secure.md
+
+# Xamarin Studio
+**/*.userprefs
+
+# Security (project id etc)
+#**/AndroidManifest.xml
+
+docs/workspace/sharpen/**
+
+src/samples/Components/**
+**/UpgradeLog.htm
+
+/docs/ubertesters.sdk.ios %
+
+
+#------------------------------------------
+# iOS build files
+**DerivedData**
+**build**
+lib/**
+#------------------------------------------
