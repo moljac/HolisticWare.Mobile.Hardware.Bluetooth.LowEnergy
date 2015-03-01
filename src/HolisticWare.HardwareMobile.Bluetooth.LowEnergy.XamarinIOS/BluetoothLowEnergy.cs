@@ -46,6 +46,11 @@ namespace HolisticWare.HardwareMobile.Bluetooth.LowEnergy
 		CBCentralManager cb_central_manager;
 
 
+		static BluetoothLowEnergy ()
+		{
+			current = new BluetoothLowEnergy();
+		}
+
 		protected BluetoothLowEnergy ()
 		{
 			cb_central_manager = new CBCentralManager (DispatchQueue.CurrentQueue);

@@ -82,6 +82,11 @@ namespace HolisticWare.HardwareMobile.Bluetooth.LowEnergy
 
 
 
+		static BluetoothLowEnergy ()
+		{
+			current = new BluetoothLowEnergy();
+		}
+
 		protected BluetoothLowEnergy ()
 		{
 			var appContext = Android.App.Application.Context;

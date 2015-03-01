@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata> 
+		<id>$id$</id>
+		<version>$version$</version>
+		<authors>Author Name</authors>
+		<owners>Author Name</owners>
+		<description>This is a template for a C# library shared on NuGet</description> 
+		<projectUrl>https://github.com/davidwhitney/DotNetLibraryTemplate</projectUrl>
+		<licenseUrl>http://www.opensource.org/licenses/MIT</licenseUrl>
+		<tags>template project sample</tags>
+		<language>en-US</language> 
+		<frameworkAssemblies>
+		</frameworkAssemblies>
+	</metadata> 	
+	<files>
+	</files>  
+</package>

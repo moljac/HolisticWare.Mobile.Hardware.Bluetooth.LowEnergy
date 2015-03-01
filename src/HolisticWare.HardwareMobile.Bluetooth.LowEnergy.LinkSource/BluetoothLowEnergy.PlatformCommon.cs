@@ -49,10 +49,6 @@ namespace HolisticWare.HardwareMobile.Bluetooth.LowEnergy
 		private static BluetoothLowEnergy current;
 
 	
-		static BluetoothLowEnergy ()
-		{
-			current = new BluetoothLowEnergy();
-		}
 
 	}
 }
