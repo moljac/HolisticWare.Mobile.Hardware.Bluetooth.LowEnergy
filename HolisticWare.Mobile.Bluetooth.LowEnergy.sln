@@ -12,17 +12,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{73798C
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.HardwareMobile.Bluetooth.LowEnergy.LinkSource", "src\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.LinkSource\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.LinkSource.csproj", "{46233860-315C-41BD-A1ED-A70583BB0090}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Mobile.Bluetooth.LowEnergy.LinkSource", "src\HolisticWare.Mobile.Bluetooth.LowEnergy.LinkSource\HolisticWare.Mobile.Bluetooth.LowEnergy.LinkSource.csproj", "{46233860-315C-41BD-A1ED-A70583BB0090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.HardwareMobile.Bluetooth.LowEnergy.Portable", "src\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.Portable\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.Portable.csproj", "{5C500BE0-E447-49E3-B944-D3804FCAEE97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Mobile.Bluetooth.LowEnergy.Portable", "src\HolisticWare.Mobile.Bluetooth.LowEnergy.Portable\HolisticWare.Mobile.Bluetooth.LowEnergy.Portable.csproj", "{5C500BE0-E447-49E3-B944-D3804FCAEE97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.HardwareMobile.Bluetooth.LowEnergy.WindowsPhone8", "src\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.WindowsPhone8\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.WindowsPhone8.csproj", "{737EF1FF-495F-434F-AB21-7FDA9333BEC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Mobile.Bluetooth.LowEnergy.WindowsPhone8", "src\HolisticWare.Mobile.Bluetooth.LowEnergy.WindowsPhone8\HolisticWare.Mobile.Bluetooth.LowEnergy.WindowsPhone8.csproj", "{737EF1FF-495F-434F-AB21-7FDA9333BEC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinAndroid", "src\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinAndroid\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinAndroid.csproj", "{15A60D02-4D58-42F6-A6A2-5ED319016A77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinAndroid", "src\HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinAndroid\HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinAndroid.csproj", "{15A60D02-4D58-42F6-A6A2-5ED319016A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinIOS", "src\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinIOS\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinIOS.csproj", "{26D22F25-7DC0-4FA4-A6CB-AAA15D999831}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinIOS", "src\HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinIOS\HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinIOS.csproj", "{26D22F25-7DC0-4FA4-A6CB-AAA15D999831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinIOS.Classic", "src\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinIOS.Classic\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.XamarinIOS.Classic.csproj", "{6711DDA8-3CEF-4B5D-ACE4-DD406809D4A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinIOS.Classic", "src\HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinIOS.Classic\HolisticWare.Mobile.Bluetooth.LowEnergy.XamarinIOS.Classic.csproj", "{6711DDA8-3CEF-4B5D-ACE4-DD406809D4A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

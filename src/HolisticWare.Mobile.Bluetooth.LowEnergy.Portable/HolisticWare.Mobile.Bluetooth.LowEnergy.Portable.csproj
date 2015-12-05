@@ -3,12 +3,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{26D22F25-7DC0-4FA4-A6CB-AAA15D999831}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{5C500BE0-E447-49E3-B944-D3804FCAEE97}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>HolisticWare.HardwareMobile.Bluetooth.LowEnergy</RootNamespace>
-    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>HolisticWare.HardwareMobile.Bluetooth.LowEnergy</AssemblyName>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,26 +30,16 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Core" />
-    <Reference Include="Xamarin.iOS" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.LinkSource\BluetoothLowEnergy.PlatformCommon.cs">
+    <Compile Include="..\HolisticWare.Mobile.Bluetooth.LowEnergy.LinkSource\BluetoothLowEnergy.cs">
+      <Link>BluetoothLowEnergy.cs</Link>
+    </Compile>
+    <Compile Include="..\HolisticWare.Mobile.Bluetooth.LowEnergy.LinkSource\BluetoothLowEnergy.PlatformCommon.cs">
       <Link>BluetoothLowEnergy.PlatformCommon.cs</Link>
     </Compile>
+    <Compile Include="..\HolisticWare.Mobile.Bluetooth.LowEnergy.LinkSource\IBluetoothLowEnergy.cs">
+      <Link>IBluetoothLowEnergy.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BluetoothLowEnergy.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.Portable\HolisticWare.HardwareMobile.Bluetooth.LowEnergy.Portable.csproj">
-      <Project>{5C500BE0-E447-49E3-B944-D3804FCAEE97}</Project>
-      <Name>HolisticWare.HardwareMobile.Bluetooth.LowEnergy.Portable</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
